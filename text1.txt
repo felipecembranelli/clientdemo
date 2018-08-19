@@ -19,3 +19,5 @@ alter x
 alter x
 alter x
 alter x
+
+alter y
