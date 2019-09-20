@@ -21,3 +21,5 @@ alter x
 alter x
 
 alter y
+
+alter z
