@@ -78,3 +78,25 @@ fatal: no upstream configured for branch 'feature1'
 fatal: no upstream configured for branch 'feature1'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
+> git show :text1.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature1
+> git rev-parse --symbolic-full-name feature1@{u}
+fatal: no upstream configured for branch 'feature1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature1
+> git rev-parse --symbolic-full-name feature1@{u}
+fatal: no upstream configured for branch 'feature1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature1
+> git rev-parse --symbolic-full-name feature1@{u}
+fatal: no upstream configured for branch 'feature1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
